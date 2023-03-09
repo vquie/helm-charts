@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   onepassworditem:
   - apiVersion: v2
-    created: "2023-03-03T19:28:32.910253+01:00"
+    created: "2023-03-09T19:59:17.311265+01:00"
     description: A 1Password secret helm chart for Kubernetes
     digest: f47df27875a686e770330ace7a320a16b62b6f6fe009103d654c8835734a7f95
     name: onepassworditem
@@ -11,7 +11,7 @@ entries:
     - onepassworditem-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
-    created: "2023-03-03T19:28:32.910066+01:00"
+    created: "2023-03-09T19:59:17.311009+01:00"
     description: A 1Password secret helm chart for Kubernetes
     digest: d720af99e2d73c7dfb981a47739d222acdc4b661d96c4c3f1ef1f19a23184c0c
     name: onepassworditem
@@ -20,7 +20,7 @@ entries:
     - onepassworditem-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2023-03-03T19:28:32.909824+01:00"
+    created: "2023-03-09T19:59:17.310669+01:00"
     description: A 1Password secret helm chart for Kubernetes
     digest: 779c2621c59ea5cf65424ad10cb62f02d4a6afabc9aa19952c3808a5ee157830
     name: onepassworditem
@@ -30,8 +30,21 @@ entries:
     version: 1.0.0
   phpipam:
   - apiVersion: v2
+    appVersion: 1.5.2
+    created: "2023-03-09T19:59:17.312005+01:00"
+    description: phpipam is an open-source web IP address management application (IPAM).
+      Its goal is to provide light, modern and useful IP address management. It is
+      php-based application with MySQL database backend, using jQuery libraries, ajax
+      and HTML5/CSS3 features.
+    digest: a5130ddeda5a4a7bfc5666a9c9ca6b71e2cd6df6b4c18ec0e359fa1b2f5eb909
+    name: phpipam
+    type: application
+    urls:
+    - phpipam-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 1.5.1
-    created: "2023-03-03T19:28:32.911008+01:00"
+    created: "2023-03-09T19:59:17.311728+01:00"
     description: phpipam is an open-source web IP address management application (IPAM).
       Its goal is to provide light, modern and useful IP address management. It is
       php-based application with MySQL database backend, using jQuery libraries, ajax
@@ -45,7 +58,7 @@ entries:
   seatable-faas-stack:
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2023-03-03T19:28:32.912069+01:00"
+    created: "2023-03-09T19:59:17.313037+01:00"
     description: The FAAS Scheduler is a component of SeaTable’s execution environment
       for Python scripts. The FAAS Scheduler handles requests, schedules jobs, saves
       and counts the results of script runs. Please see the SeaTable Manual for installation
@@ -59,7 +72,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2023-03-03T19:28:32.911589+01:00"
+    created: "2023-03-09T19:59:17.31255+01:00"
     description: The FAAS Scheduler is a component of SeaTable’s execution environment
       for Python scripts. The FAAS Scheduler handles requests, schedules jobs, saves
       and counts the results of script runs. Please see the SeaTable Manual for installation
@@ -71,4 +84,4 @@ entries:
     urls:
     - seatable-faas-stack-1.0.0.tgz
     version: 1.0.0
-generated: "2023-03-03T19:28:32.909605+01:00"
+generated: "2023-03-09T19:59:17.309473+01:00"
