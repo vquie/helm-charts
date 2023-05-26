@@ -3,7 +3,7 @@ entries:
   act-runner:
   - apiVersion: v2
     appVersion: 0.1.14
-    created: "2023-05-04T23:25:34.535563+02:00"
+    created: "2023-05-26T20:41:08.141992+02:00"
     digest: d9a75120a925c9e5bddc895741051f682dcc8cdcd9013cd86e6465fd35c23c32
     name: act-runner
     type: application
@@ -12,7 +12,7 @@ entries:
     version: 0.1.0
   onepassworditem:
   - apiVersion: v2
-    created: "2023-05-04T23:25:34.53657+02:00"
+    created: "2023-05-26T20:41:08.142776+02:00"
     description: A 1Password secret helm chart for Kubernetes
     digest: f47df27875a686e770330ace7a320a16b62b6f6fe009103d654c8835734a7f95
     name: onepassworditem
@@ -21,7 +21,7 @@ entries:
     - onepassworditem-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
-    created: "2023-05-04T23:25:34.536272+02:00"
+    created: "2023-05-26T20:41:08.142535+02:00"
     description: A 1Password secret helm chart for Kubernetes
     digest: d720af99e2d73c7dfb981a47739d222acdc4b661d96c4c3f1ef1f19a23184c0c
     name: onepassworditem
@@ -30,7 +30,7 @@ entries:
     - onepassworditem-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2023-05-04T23:25:34.535931+02:00"
+    created: "2023-05-26T20:41:08.142286+02:00"
     description: A 1Password secret helm chart for Kubernetes
     digest: 779c2621c59ea5cf65424ad10cb62f02d4a6afabc9aa19952c3808a5ee157830
     name: onepassworditem
@@ -41,7 +41,7 @@ entries:
   phpipam:
   - apiVersion: v2
     appVersion: 1.5.2
-    created: "2023-05-04T23:25:34.539738+02:00"
+    created: "2023-05-26T20:41:08.145343+02:00"
     description: phpipam is an open-source web IP address management application (IPAM).
       Its goal is to provide light, modern and useful IP address management. It is
       php-based application with MySQL database backend, using jQuery libraries, ajax
@@ -54,7 +54,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.5.2
-    created: "2023-05-04T23:25:34.539243+02:00"
+    created: "2023-05-26T20:41:08.144162+02:00"
     description: phpipam is an open-source web IP address management application (IPAM).
       Its goal is to provide light, modern and useful IP address management. It is
       php-based application with MySQL database backend, using jQuery libraries, ajax
@@ -67,7 +67,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.5.2
-    created: "2023-05-04T23:25:34.53868+02:00"
+    created: "2023-05-26T20:41:08.143665+02:00"
     description: phpipam is an open-source web IP address management application (IPAM).
       Its goal is to provide light, modern and useful IP address management. It is
       php-based application with MySQL database backend, using jQuery libraries, ajax
@@ -80,7 +80,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.5.1
-    created: "2023-05-04T23:25:34.538061+02:00"
+    created: "2023-05-26T20:41:08.143229+02:00"
     description: phpipam is an open-source web IP address management application (IPAM).
       Its goal is to provide light, modern and useful IP address management. It is
       php-based application with MySQL database backend, using jQuery libraries, ajax
@@ -94,7 +94,21 @@ entries:
   seatable-faas-stack:
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2023-05-04T23:25:34.540883+02:00"
+    created: "2023-05-26T20:41:08.147022+02:00"
+    description: The FAAS Scheduler is a component of SeaTable’s execution environment
+      for Python scripts. The FAAS Scheduler handles requests, schedules jobs, saves
+      and counts the results of script runs. Please see the SeaTable Manual for installation
+      and upgrade instructions.
+    digest: 845369d532514db7ff773666262a5e503382a2ccf35c6cea8a732991ab922856
+    icon: https://manual.seatable.io/media/SeaTable256-256.png
+    name: seatable-faas-stack
+    type: application
+    urls:
+    - seatable-faas-stack-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 2.2.2
+    created: "2023-05-26T20:41:08.146629+02:00"
     description: The FAAS Scheduler is a component of SeaTable’s execution environment
       for Python scripts. The FAAS Scheduler handles requests, schedules jobs, saves
       and counts the results of script runs. Please see the SeaTable Manual for installation
@@ -108,7 +122,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2023-05-04T23:25:34.540322+02:00"
+    created: "2023-05-26T20:41:08.146012+02:00"
     description: The FAAS Scheduler is a component of SeaTable’s execution environment
       for Python scripts. The FAAS Scheduler handles requests, schedules jobs, saves
       and counts the results of script runs. Please see the SeaTable Manual for installation
@@ -120,4 +134,4 @@ entries:
     urls:
     - seatable-faas-stack-1.0.0.tgz
     version: 1.0.0
-generated: "2023-05-04T23:25:34.534702+02:00"
+generated: "2023-05-26T20:41:08.140512+02:00"
